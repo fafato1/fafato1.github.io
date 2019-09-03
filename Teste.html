@@ -41,9 +41,9 @@ function animate() {
 let canvas = document.getElementById('myCanvas');
 let context = canvas.getContext('2d');
 let particles = [];
-let particleSize = 4;
-let maxParticles = 200;
-let threshold = 100;
+let particleSize = 5;
+let maxParticles = 500;
+let threshold = 75;
 for (let i = 0; i < maxParticles; i++) {
   let particle = {
     x: Math.random() * canvas.width,
