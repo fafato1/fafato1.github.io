@@ -55,7 +55,7 @@ function Acenderluz2(){ //Apaga todos
         luz1 = false;
         luz3 = false;
 
-        luzesAcesas += 1;
+        luzesAcesas = 1;
         jogador.cliques += 1;
         jogador.pontuacao += 5;
         (luzesAcesas % 2 == 0) ? jogador.pontuacao -= 9 : jogador.pontuacao -= 6;
@@ -163,4 +163,8 @@ function Apagarluz3(){
     document.getElementById("luzes").innerHTML = "Luzes acesas: " + luzesAcesas;
     document.getElementById("pontos").innerHTML = "Pontos: " + jogador.pontuacao;
 
+}
+
+function compararponto(){
+    
 }
