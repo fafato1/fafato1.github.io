@@ -1656,3 +1656,11 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+		figcaption{
+			font-size: 00.75em;
+			text-align: center;
+		}
+		.img_center{
+			display:block;
+			margin: auto;
+		}
